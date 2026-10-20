@@ -1,4 +1,4 @@
-// Design tokens for the Pi Native CRM showcase.
+// Design tokens for the MUC showcase.
 // "Soft-tech / calmo" — neutros desaturados (greige/warm-gray), accent não-saturado.
 // 5-Constraint Rule applied: Shape, Color (exact hex), Typography, Motion, Layout.
 

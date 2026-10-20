@@ -41,7 +41,7 @@ const org = {
 let contexto: { user: AuthUser; activeOrg: ActiveOrg | null } = { user: usuario, activeOrg: org };
 vi.mock("@/hooks/auth/AuthProvider", () => ({ useAuth: () => contexto }));
 
-const PADRAO: Branding = { name: DEFAULT_APP_NAME, logoUrl: null, initial: "P" };
+const PADRAO: Branding = { name: DEFAULT_APP_NAME, logoUrl: null, initial: "M" };
 
 function renderSidebar(marca: Branding, collapsed: boolean) {
   return render(

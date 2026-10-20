@@ -34,7 +34,7 @@ export const SIMBOLO = {
 } as const;
 
 /**
- * O logotipo: símbolo + nome Pi Native CRM. O componente renderiza o nome em
+ * O logotipo: símbolo + nome MUC. O componente renderiza o nome em
  * SVG para que a marca atual não dependa dos caminhos da arte anterior.
  */
 export const LOGOTIPO = {

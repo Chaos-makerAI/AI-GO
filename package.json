@@ -1,8 +1,8 @@
 {
-  "name": "pi-native-crm",
+  "name": "muc",
   "version": "0.1.0",
   "private": true,
-  "description": "Pi Native CRM — CRM self-hosted, multi-tenant e LGPD by-design com execução de agentes baseada no Pi Agent Core.",
+  "description": "MUC — an Agent-native, multi-tenant CRM with a controlled execution runtime based on Pi Agent Core.",
   "engines": {
     "node": ">=22"
   },

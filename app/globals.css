@@ -25,7 +25,7 @@
 @custom-variant dark (&:where([data-theme="dark"], [data-theme="dark"] *));
 
 /* ─────────────────────────────────────────────────────────────────────────
-   Pi Native CRM — Design System tokens (Neutral palette · density Aerada)
+   MUC — Design System tokens (Neutral palette · density Aerada)
    Source of truth: app/globals.css · docs/design-system/10-neutral-refresh.md
    Light + dark drawn separately (NOT inverted).
    ───────────────────────────────────────────────────────────────────────── */

@@ -48,7 +48,7 @@ export default function DesignShowcasePage() {
   return (
     <div className="ds-shell">
       <aside className="ds-sidebar">
-        <h1>Pi Native CRM</h1>
+        <h1>MUC</h1>
         <div className="ds-sub">design system · v0.1</div>
 
         <div className="ds-nav-section">Foundation</div>
@@ -107,7 +107,7 @@ export default function DesignShowcasePage() {
 
         <div className="ds-scroll">
           <div className="ds-banner">
-            <h1>Showcase de Design System — Pi Native CRM</h1>
+            <h1>Showcase de Design System — MUC</h1>
             <p>
               Use a sidebar pra navegar pelas seções. Use o switcher (canto superior direito) pra trocar
               <strong> paleta · tipografia · densidade · tema</strong> em runtime — escolhas persistem em localStorage.

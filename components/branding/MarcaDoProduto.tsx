@@ -33,7 +33,6 @@ const NOME_CLARO_ESCURO = "fill-[#1c1814] dark:fill-[#f6f1ea]";
 const SUFIXO_CLARO_ESCURO = "fill-[#5b5043] dark:fill-[#8a7e6b]";
 const SIMBOLO_SUPERFICIE_ESCURA = "fill-[#d79376]";
 const NOME_SUPERFICIE_ESCURA = "fill-[#f6f1ea]";
-const SUFIXO_SUPERFICIE_ESCURA = "fill-[#c0b6a7]";
 
 // As classes acima repetem os hexes de `CORES_DA_MARCA` porque o Tailwind só
 // gera utilitário para valor LITERAL no fonte. Quem impede os dois de divergirem
@@ -88,18 +87,7 @@ export function LogotipoDoProduto({ nome, className, decorativo = false, superfi
         fontWeight="700"
         letterSpacing="-1"
       >
-        Pi Native
-      </text>
-      <text
-        className={superficieEscura ? SUFIXO_SUPERFICIE_ESCURA : SUFIXO_CLARO_ESCURO}
-        x="273"
-        y="192"
-        fontFamily="Arial, sans-serif"
-        fontSize="34"
-        fontWeight="600"
-        letterSpacing="3"
-      >
-        CRM
+        MUC
       </text>
     </svg>
   );

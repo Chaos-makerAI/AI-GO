@@ -1,6 +1,6 @@
-# Pi Native CRM runtime architecture
+# MUC runtime architecture
 
-Pi Native CRM separates CRM policy from agent execution:
+MUC separates CRM policy from agent execution:
 
 ```text
 CRM domain / agent turn

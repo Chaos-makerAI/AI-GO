@@ -1,7 +1,7 @@
 /**
  * Marca da instalação — nome e logo configuráveis pelo `.env`, SEM rebuild.
  *
- * Por que existe: quem instala o Pi Native CRM para clientes (agência, revendedor)
+ * Por que existe: quem instala o MUC para clientes (agência, revendedor)
  * precisa da própria marca na interface. Fazer isso editando o código quebraria o
  * caminho de atualização — `update.sh` puxa a imagem nova e o patch local se perde,
  * que é exatamente a dor nº 1 de quem hospeda o próprio sistema. Configuração em
@@ -16,7 +16,7 @@
  * runtime em vez de lida do bundle.
  */
 
-export const DEFAULT_APP_NAME = "Pi Native CRM";
+export const DEFAULT_APP_NAME = "MUC";
 
 export type Branding = {
   /** Nome exibido na interface e nos títulos de página. */
